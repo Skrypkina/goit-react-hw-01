@@ -1,0 +1,59 @@
+.pricingPlan {
+  width: 1000px;
+  height: 550px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding-inline-start: 0;
+  padding: 60px 30px 0px 30px;
+}
+
+.item {
+  width: 280px;
+  height: 450px;
+  display: block;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.icon {
+  display: block;
+  width: 230px;
+  height: 160px;
+  margin: 0 auto;
+}
+
+.description,
+.capacity {
+  font-family: sans-serif;
+  color: #c0c0c0;
+  font-size: 12px;
+}
+
+.price {
+  font-family: sans-serif;
+  color: #c0c0c0;
+  font-size: 25px;
+}
+
+.label {
+  font-family: sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: burlywood;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 30px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 8px;
+  text-transform: uppercase;
+  background-color: burlywood;
+  border: none;
+}

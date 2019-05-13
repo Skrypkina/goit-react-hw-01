@@ -1,0 +1,44 @@
+.profile {
+  width: 400px;
+  height: 500px;
+  background-color: lightgray;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.description {
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+  background-color: white;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px #808080;
+}
+.avatar {
+  border-radius: 80px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.name {
+  font-size: 20px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.tag {
+  font-family: Arial;
+  color: grey;
+  font-size: 15px;
+  text-align: center;
+}
+
+.location {
+  composes: tag;
+}
